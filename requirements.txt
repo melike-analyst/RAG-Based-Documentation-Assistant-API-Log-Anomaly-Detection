@@ -1,0 +1,8 @@
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2.0
+anthropic>=0.34   # opsiyonel: RAG_LLM_PROVIDER=anthropic için
+openai>=1.30      # opsiyonel: RAG_LLM_PROVIDER=openai için

@@ -1,0 +1,17 @@
+[
+  {"id": "q1", "question": "loc ile iloc arasındaki fark nedir?", "expected_source": "dataframe_basics.md", "answerable": true},
+  {"id": "q2", "question": "SettingWithCopyWarning neden ortaya çıkar?", "expected_source": "dataframe_basics.md", "answerable": true},
+  {"id": "q3", "question": "category dtype ne zaman kullanılmalı?", "expected_source": "dataframe_basics.md", "answerable": true},
+  {"id": "q4", "question": "groupby().transform() ne işe yarar?", "expected_source": "groupby_and_aggregation.md", "answerable": true},
+  {"id": "q5", "question": "pivot_table ile groupby arasındaki fark nedir?", "expected_source": "groupby_and_aggregation.md", "answerable": true},
+  {"id": "q6", "question": "merge() işleminde validate parametresi ne işe yarar?", "expected_source": "merging_and_joining.md", "answerable": true},
+  {"id": "q7", "question": "concat() ile merge() arasındaki fark nedir?", "expected_source": "merging_and_joining.md", "answerable": true},
+  {"id": "q8", "question": "fillna ile dropna arasında nasıl karar verilir?", "expected_source": "missing_data_handling.md", "answerable": true},
+  {"id": "q9", "question": "NaN ve NaT arasındaki fark nedir?", "expected_source": "missing_data_handling.md", "answerable": true},
+  {"id": "q10", "question": "apply() neden bazen çok yavaş olur?", "expected_source": "performance_optimization.md", "answerable": true},
+  {"id": "q11", "question": "Büyük bir CSV dosyasını bellek dolmadan nasıl okurum?", "expected_source": "performance_optimization.md", "answerable": true},
+  {"id": "q12", "question": "pandas'ta GPU hızlandırması nasıl aktif edilir?", "expected_source": null, "answerable": false},
+  {"id": "q13", "question": "pandas'ın en son sürümünde eklenen yeni özellikler nelerdir?", "expected_source": null, "answerable": false},
+  {"id": "q14", "question": "pandas ile derin öğrenme modeli nasıl eğitilir?", "expected_source": null, "answerable": false},
+  {"id": "q15", "question": "Polars pandas'tan nasıl farklıdır?", "expected_source": null, "answerable": false}
+]
