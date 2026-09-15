@@ -3,10 +3,10 @@
 Bu proje, gerçek dünyadaki bir "AI Engineer" görevini simüle eden, uçtan uca çalışan iki
 bileşenli bir sistemdir:
 
-1. **RAG (Retrieval-Augmented Generation) Dokümantasyon Asistanı** — pandas kütüphanesi
+1. **RAG (Retrieval-Augmented Generation) Dokümantasyon Asistanı** : pandas kütüphanesi
    hakkında doğal dilde soru sorulduğunda, kendi yazdığım bir bilgi tabanından en alakalı
    içeriği bulup kaynak göstererek cevap üretir.
-2. **API Log Anomali Tespiti** — sentetik bir "veri işleme servisi"nin (pandas tabanlı bir
+2. **API Log Anomali Tespiti** :sentetik bir "veri işleme servisi"nin (pandas tabanlı bir
    backend'i simüle eden) loglarında açıklanabilir (z-score tabanlı) anomali tespiti yapar.
 
 Bu proje **belirli bir şirket için değil**, RAG + değerlendirme + anomali tespiti + API
