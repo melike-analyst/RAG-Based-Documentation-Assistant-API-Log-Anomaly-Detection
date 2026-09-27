@@ -21,7 +21,7 @@ uyarlanabilir bir iskelet sunar.
   retrieval yöntemi. `Retriever` arayüzü korunarak ileride kolayca bir embedding tabanlı
   vektör veritabanına (Chroma/FAISS + OpenAI/Voyage embeddings) yükseltilebilir.
 - **z-score, "black box" bir ML modeli yerine.** Bir anomalinin NEDEN öyle sayıldığının açıkça
-  gösterilebilmesi (hangi metrik, kaç standart sapma) hem hata ayıklamayı kolaylaştırır hem de
+  gösterilebilmesi (hangi metrik, kaç standart sapma) hem  hata ayıklamayı kolaylaştırır hem de
   operasyon ekiplerinde güven inşa eder.
 - **Sentetik veri.** Gerçek bir servisin loglarına erişimim olmadığı için, gerçekçi bir
   dağılımla (endpoint'e göre değişen gecikme/bellek profilleri, kasıtlı anomaliler) sentetik
