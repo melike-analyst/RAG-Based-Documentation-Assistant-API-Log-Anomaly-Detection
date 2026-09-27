@@ -1,7 +1,7 @@
 # pandas Performans Optimizasyonu
 
 ## Vektörizasyon vs apply()
-pandas ve NumPy'ın temel gücü VEKTÖRİZE işlemlerden gelir — yani bir döngü yazmak yerine,
+pandas ve NumPy'ın temel gücü VEKTÖRİZE işlemlerden gelir . yani bir döngü yazmak yerine,
 işlemi tüm sütuna/diziye aynı anda uygulamak. `df["a"] + df["b"]` gibi bir işlem, C seviyesinde
 optimize edilmiş kod çalıştırır. Buna karşılık `df.apply(lambda row: row["a"] + row["b"], axis=1)`,
 her satır için Python seviyesinde bir fonksiyon çağrısı yapar ve genellikle 10-100 kat daha
