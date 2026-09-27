@@ -9,7 +9,7 @@ Bu sandbox ortamında model ağırlığı indirmeyi gerektiren büyük embedding
 sentence-transformers, HuggingFace Hub) ağ erişimi kısıtlı olduğundan, tamamen offline çalışan,
 klasik ve açıklanabilir bir yöntem olan TF-IDF + kosinüs benzerliği tercih edilmiştir. Üretim
 ortamında bu modül, aynı arayüzü koruyarak (bkz. Retriever sınıfı) kolayca bir embedding tabanlı
-vektör veritabanına (Chroma, FAISS + OpenAI/Voyage embeddings vb.) yükseltilebilir — bu, README'de
+vektör veritabanına (Chroma, FAISS + OpenAI/Voyage embeddings vb.) yükseltilebilir . bu, README'de
 "Nasıl Geliştirilir" bölümünde açıkça not edilmiştir.
 """
 
