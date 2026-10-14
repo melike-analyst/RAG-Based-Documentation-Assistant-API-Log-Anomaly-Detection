@@ -9,8 +9,8 @@ bileşenli bir sistemdir:
 2. **API Log Anomali Tespiti** :sentetik bir "veri işleme servisi"nin (pandas tabanlı bir
    backend'i simüle eden) loglarında açıklanabilir (z-score tabanlı) anomali tespiti yapar.
 
-Bu proje **belirli bir şirket için değil**, RAG + değerlendirme + anomali tespiti + API
-entegrasyonu becerilerini genel olarak göstermek için hazırlanmıştır ve farklı domainlere
+Bu proje , RAG + değerlendirme + anomali tespiti + API
+entegrasyonu becerilerini genel olarak kullanmak için hazırlanmıştır ve farklı domainlere
 (iç dokümantasyon, mühendislik/uyumluluk metinleri, ürün dokümantasyonu vb.) kolayca
 uyarlanabilir bir iskelet sunar.
 
